@@ -6,17 +6,17 @@
 #
 # This will be automatically collected and used to make a datasheet for the chip.
 project: 
-  author:       ""      # Your name
-  title:        ""      # Project title
-  description:  ""      # Short description of what your project does
-  how_it_works: ""      # Longer description of how the project works
-  how_to_test:  ""      # Instructions on how someone could test your project, include things like what buttons do what and how to set the clock if needed
-  external_hw:  ""      # Describe any external hardware needed
-  doc_link:     ""      # URL to longer form documentation, eg the README.md in your repository
-  clock_hz:     0       # Clock frequency in Hz (if required)
-  language:     "wokwi" # other examples include Verilog, Amaranth, VHDL, etc
-  wokwi_id:     0       # the wokwi ID
-  picture:      ""      # relative path to a picture in your repository
+  author:       "Thomas Zachariah"      # Your name
+  title:        "LAB11"
+  description:  "Cycles through the characters of LAB11"
+  how_it_works: "Gates & flip-flops connected to the 7-segment display change the state of corresponding LED segments to form the next character, each cycle"
+  how_to_test:  "Set to desired clock speed – characters are most readable at the lowest speed"
+  external_hw:  "None"
+  doc_link:     "https://github.com/tzachari/tinytapeout-lab11"
+  clock_hz:     2
+  language:     "wokwi"
+  wokwi_id:     341631644820570706
+  picture:      "tinytapeout-lab11.gif"
   inputs:               # a description of what the inputs do
     - clock
     - reset
